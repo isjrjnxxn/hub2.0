@@ -8,5 +8,5 @@ game:GetService("StarterGui"):SetCore("SendNotification",{
 })
 if table.find(TablePlace,game.PlaceId) then
     _G.Game = "BF"
-    loadstring(game:HttpGet("https://github.com/isjrjnxxn/hub2.0/blob/6be669c562dc72aa3ecb3f51c49c8aa213733e13/BF-New.lua.txt"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/BF-New.lua"))()
 end
